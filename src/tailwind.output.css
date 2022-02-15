@@ -650,6 +650,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 2rem;
 }
 
+.min-h-screen{
+  min-height: 100vh;
+}
+
 .w-full{
   width: 100%;
 }
@@ -781,6 +785,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .p-3{
   padding: 0.75rem;
+}
+
+.p-0{
+  padding: 0px;
 }
 
 .py-12{
@@ -1269,6 +1277,10 @@ button[disabled]:hover{
 
   .md\:bg-transparent{
     background-color: transparent;
+  }
+
+  .md\:p-6{
+    padding: 1.5rem;
   }
 
   .md\:px-6{
